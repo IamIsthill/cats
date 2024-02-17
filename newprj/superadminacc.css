@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, arial;
+  
+  }
+  
+  .header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 83, 156); /* edited */ 
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+    height: 80px;
+  }
+  .left-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+      .left-section a{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      text-decoration: none;
+      }
+    
+      .left-section img {
+        width: 400px; /* edited */
+        height: 80px;
+        object-fit: cover;
+        border-radius: 30px;
+        margin-right: 15px;
+        margin-left: -15px;
+      }
+   
+      
+    
+      .dashh{
+        margin-right: 15px;
+        margin-left: 5px;
+        font-size: 17px;
+        color:  rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 2px 2px;
+        border-radius: 5%;
+        background-color: rgba(240, 248, 255, 0);
+        transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+        display: inline-block;
+        transform: translateY(0);
+    }
+    .dashh:hover{
+      color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.514); 
+        border-radius: 10%; 
+        text-decoration: none;
+    }
+      
+      
+      .orgs {
+        margin-right: 15px;
+        margin-left: 15px;
+        font-size: 17px;
+        color:  rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 2px 2px;
+        border-radius: 5%;
+        background-color: rgba(240, 248, 255, 0);
+        transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+        display: inline-block;
+        transform: translateY(0);
+      }
+      
+      .orgs:hover {
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.514); 
+        border-radius: 10%; 
+        text-decoration: none;
+      }
+      
+      .audtrail {
+        margin-right: 50px;
+        margin-left: 15px;
+        font-size: 17px;
+        color:  rgb(255, 255, 255);
+        text-decoration: none;
+        padding: 2px 2px;
+        border-radius: 5%;
+        background-color: rgba(240, 248, 255, 0);
+        transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+        display: inline-block;
+        transform: translateY(0);
+      }
+      
+      .audtrail:hover {
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.514); 
+        border-radius: 10%; 
+        text-decoration: none;
+      }
+     
+      
+  
+     .user-name a{
+        color: aliceblue;
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: -1px;
+     }
+
+     .user-name a:hover{
+      color: aliceblue;
+     }
+     .profile-link img{
+      width: 30px;
+      height: auto;
+      border-radius: 15px;
+      margin-top: 0px;
+      margin-right: 10px;
+   }
+      
+      .logout {
+      
+        margin-right: -30px;
+       margin-left: 0px;
+        font-size: 12px;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        background-color: rgb(182, 0, 0); 
+        text-decoration: none;
+        transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+      
+        display: inline-block;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transform: translateY(0);
+      }
+      
+      .logout:hover {
+        background-color: rgb(100, 0, 0); 
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+        text-decoration: none;
+        color: aliceblue;
+      }
+  
+      .right-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        margin-right: 65px;
+        
+        
+      }
+      body {
+        padding-top: 95px;
+        background: linear-gradient(to top, rgba(218, 217, 217, 0.5) 50%, rgba(218, 217, 217, 0.5) 50%), url(images/lagin.jpg);
+        background-attachment: fixed; /* Keep the background fixed while scrolling */
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+     
+        }
+        .table-wrapper {
+            width: 800px;
+            margin: 30px auto;
+            background-color: rgba(0, 48, 90, 0.541);
+            padding: 20px;
+            border-radius: 10px;	
+            box-shadow: 0 1px 1px rgba(0,0,0,.05);
+            color: aliceblue;
+        }
+        .table-title {
+            padding-bottom: 10px;
+            margin: 0 0 10px;
+        }
+        .table-title h2 {
+            margin: 6px 0 0;
+            font-size: 22px;
+        }
+        .table-title .add-new {
+            float: right;
+            height: 30px;
+            font-weight: bold;
+            font-size: 12px;
+            text-shadow: none;
+            min-width: 100px;
+            border-radius: 50px;
+            line-height: 13px;
+        }
+        .table th{
+            color: aliceblue;
+            font-weight: 500;
+        }
+        .table td{
+            color: aliceblue;
+            font-weight: 500;
+        }
+        .table-title .add-new i {
+            margin-right: 4px;
+        }
+        table.table {
+            table-layout: fixed;
+        }
+        table.table tr th, table.table tr td {
+            border-color: #e9e9e9;
+        }
+        table.table th i {
+            font-size: 13px;
+            margin: 0 5px;
+            cursor: pointer;
+            
+            
+        }
+        table.table th:last-child {
+            width: 100px;
+        }
+        table.table td a {
+            cursor: pointer;
+            display: inline-block;
+            margin: 0 5px;
+            min-width: 24px;
+        }    
+       
+        table.table td a.delete {
+            color: #E34724;
+        }
+        table.table td i {
+            font-size: 19px;
+        }
+        table.table td a.add i {
+            font-size: 24px;
+            margin-right: -1px;
+            position: relative;
+            top: 3px;
+        }    
+        table.table .form-control {
+            height: 32px;
+            line-height: 32px;
+            box-shadow: none;
+            border-radius: 2px;
+            
+        }
+        table.table .form-control.error {
+            border-color: #f50000;
+        }
+        table.table td .add {
+            display: none;
+        }
+        
