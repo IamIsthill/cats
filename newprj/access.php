@@ -46,7 +46,7 @@ if (isset($_POST["login"])) {
         
         exit();
     } else {
-        $message = "<label>Wrong Data</label>";
+        $message = "<label>Wrong Data</label>  ";
        
     }
 } elseif (isset($_POST["register"])) {
